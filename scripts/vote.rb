@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 SUBJECTS = "/etc/vote/subjects.json"
-VOTEFILE = Dir.home + "/.vote"
+VOTEFILE = Dir.home + "/.vote.json"
 
 if __FILE__ == $0
   require 'optparse'
