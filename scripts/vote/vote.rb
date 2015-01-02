@@ -51,7 +51,7 @@ if __FILE__ == $0
   if !subjects.key?(subject)
     abort "'#{subject}': not a valid subject. Use --list to list available subjects."
   elsif !subjects[subject].include?(choice)
-    abort "'#{option}': not a valid choice for '#{subject}'. Use --list to list available subjects."
+    abort "'#{choice}': not a valid choice for '#{subject}'. Use --list to list available subjects."
   end
 
   votes = {}
